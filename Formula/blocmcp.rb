@@ -5,21 +5,21 @@ class Blocmcp < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.0.1/blocmcp_v0.0.1_darwin_arm64.tar.gz"
-      sha256 "f1cb44d1f69a7d65c1f130fb84933dd2b1dd031bdfb35e4e42f16f686d4c6e0c"
+      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.0.8/blocmcp_v0.0.8_darwin_arm64.tar.gz"
+      sha256 "1f90c97a14a721b37c6fb557a18c56dcadf137d0dd618ea2633d467ddda8c81e"
     else
-      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.0.1/blocmcp_v0.0.1_darwin_amd64.tar.gz"
-      sha256 "1a7d7a216c588868e924669fad06af3bb85639d3d0dcc06ae64ae00baa1b5c0f"
+      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.0.8/blocmcp_v0.0.8_darwin_amd64.tar.gz"
+      sha256 "fde8cd4f620aaa75e8cdb9cbb7836d2c359fca712f3ccaf94efdc97bbf8b9b78"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.0.1/blocmcp_v0.0.1_linux_arm64.tar.gz"
-      sha256 "951393c36dcb669198a52b0c109960c64205239f5cb059c764eb44045c510fb7"
+      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.0.8/blocmcp_v0.0.8_linux_arm64.tar.gz"
+      sha256 "8b78ff94e8774ea9dd7e99c63ce802db0bb6dc7098fc025d019ee99268920bb7"
     else
-      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.0.1/blocmcp_v0.0.1_linux_amd64.tar.gz"
-      sha256 "061ad6e67a0efb7ee2cc456092312948e6a8b88234516504b1eeb3c0111cad5e"
+      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.0.8/blocmcp_v0.0.8_linux_amd64.tar.gz"
+      sha256 "63982f8daebbd39a3b304888d5dda129d45d8ea7d34af79ba53c378bb5bec47c"
     end
   end
 
