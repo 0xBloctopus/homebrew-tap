@@ -3,6 +3,9 @@ class Blocmcp < Formula
   homepage "https://www.bloctopus.io"
   license :cannot_represent
 
+  version "0.1.4"
+  version_scheme 1
+
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.1.4/blocmcp_v0.1.4_darwin_arm64.tar.gz"
