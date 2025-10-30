@@ -1,10 +1,10 @@
 class Blocmcp < Formula
   desc "Bloctopus MCP CLI"
   homepage "https://www.bloctopus.io"
-  license :cannot_represent
-
+  
   version "0.1.4"
   version_scheme 1
+  license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
