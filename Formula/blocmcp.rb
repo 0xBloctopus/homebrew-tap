@@ -1,27 +1,27 @@
 class Blocmcp < Formula
   desc "Bloctopus MCP CLI"
   homepage "https://www.bloctopus.io"
-  version "0.1.4"
+  version "0.1.5"
   license :cannot_represent
   version_scheme 1
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.1.4/blocmcp_v0.1.4_darwin_arm64.tar.gz"
-      sha256 "d9e0428b4aef34765ce41ea1d49d69edaea2b0a0af08516d0b65c48fb88d92c2"
+      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.1.5/blocmcp_v0.1.5_darwin_arm64.tar.gz"
+      sha256 "40b4dcce182926dcf7d8215b134fe98b580e3d6b3440c375ef7219400a8bad58"
     else
-      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.1.4/blocmcp_v0.1.4_darwin_amd64.tar.gz"
-      sha256 "3ba4a8bbdc3ce0648359d4fd029554b5bdb3d6e40b259ee65f03ad715d247823"
+      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.1.5/blocmcp_v0.1.5_darwin_amd64.tar.gz"
+      sha256 "9a22666cd65339bd4fa784e27a3918832ba3abb0cc50a501acd219505bee46f1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.1.4/blocmcp_v0.1.4_linux_arm64.tar.gz"
-      sha256 "98e98b1f234e6b3bda2e4d5c30785559cd22d64ece5991af2d72a33704cadce5"
+      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.1.5/blocmcp_v0.1.5_linux_arm64.tar.gz"
+      sha256 "2171a652deb977800dbaa9ec22a53835e6ff3974f5d21062e4734649360e5b9a"
     else
-      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.1.4/blocmcp_v0.1.4_linux_amd64.tar.gz"
-      sha256 "ece0a8e10fc26a760c8643f558655dbf40dad5a4a95a19d2ded5fbf17bb92d30"
+      url "https://github.com/0xBloctopus/homebrew-tap/releases/download/v0.1.5/blocmcp_v0.1.5_linux_amd64.tar.gz"
+      sha256 "d7c174e9e309d12cba64f2200516b12299a74969ff320fe166ca35f32281c8c2"
     end
   end
 
